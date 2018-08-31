@@ -1,0 +1,13 @@
+<h1>Feedback Form</h1>
+
+<div id="frmTextElement">
+    <label>Name:</label><br><br>
+    <label>Email Address:</label>
+</div>
+<div id="frmTextChange">
+    <input type="text" [(ngModel)]="namevalue"/><br><br>
+    <input type="text" [(ngModel)]="EmailAddress"/>
+</div>
+<div>
+  <input type="button" value="submit" (click)="showSuccess()"/>
+</div>
